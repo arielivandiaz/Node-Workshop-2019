@@ -126,7 +126,7 @@ En este nuevo ejemplo utilizaremos MySQL como base de datos, para ello deberemos
 ### Continuará….
 
 
-
+[Ariel Ivan Diaz](www.arielivandiaz.com)
 
 
 
