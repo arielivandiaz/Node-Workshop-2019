@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<%- include partials/header.ejs %>
+
+<body>
+    <div class=" text-center center-block">
+        <h1>
+            <%= message %>
+        </h1>
+        <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+             
+                <form action="/" method="post">
+                    <div class="input-group">
+                        <input type="text" style=" width : 10%" class="form-control" name="name" placeholder="Your Name">
+
+                    </div>
+                    <br>
+                    <div class="input-group ">
+                        <button type="submit" class="btn btn-primary btn-lg offset-5" id="btn_log_login">Sumit</button>                        
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+
+</body>
+<%- include partials/footer.ejs %>
+
+</html>
